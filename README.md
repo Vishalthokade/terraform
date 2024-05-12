@@ -88,8 +88,8 @@ Defines the development environment for the EC2 instances.
 
 Set up your AWS access key and secret key in terraform.tfvars:
 
--access_key = "YOUR_ACCESS_KEY"
--secret_key = "YOUR_SECRET_KEY"
+- access_key = "YOUR_ACCESS_KEY"
+- secret_key = "YOUR_SECRET_KEY"
 
 
 ### RUN TERRAFORM
@@ -98,9 +98,9 @@ Navigate to Terraform\env\dev\ec2-tect-test.
 
 Run the following commands:
 
--terraform init
--terraform plan
--terraform apply
+- terraform init
+- terraform plan
+- terraform apply
 
 ### REVIEW
 
