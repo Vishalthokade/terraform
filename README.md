@@ -42,8 +42,6 @@ Defines the development environment for the EC2 instances.
 
 Set up your AWS access key and secret key in terraform.tfvars:
 
-markdown
-Copy code
 # TERRAFORM PROJECT: AWS INFRASTRUCTURE SETUP
 
 This Terraform project sets up an AWS infrastructure consisting of EC2 instances and a load balancer. It's organized into modules for managing virtual machines (VM) and load balancers (LB).
